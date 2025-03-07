@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #d60909;
 }
 
 
@@ -30,7 +30,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url();
+    background-image: url(https://assets-prd.ignimgs.com/2021/11/25/gorillaz-1637839431672.jpg);
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
