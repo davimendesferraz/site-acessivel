@@ -1,10 +1,10 @@
-@import url(https://assets-prd.ignimgs.com/2021/11/25/gorillaz-1637839431672.jpg);
-@import url(https://assets-prd.ignimgs.com/2021/11/25/gorillaz-1637839431672.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
     --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #f00909;
-    --alto-contraste-texto: #9e1212;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #d60909;
+    background-color: #ffffff;
 }
 
 
@@ -30,7 +30,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url(https://assets-prd.ignimgs.com/2021/11/25/gorillaz-1637839431672.jpg);
+    background-image: url('https://assets-prd.ignimgs.com/2021/11/25/gorillaz-1637839431672.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -79,7 +79,7 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('https://assets-prd.ignimgs.com/2021/11/25/gorillaz-1637839431672.jpg') top right no-repeat;
+    background: url('img/flor.png') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
@@ -103,7 +103,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #e20c0c;
+    background-color: #FAF4F4;
 
 }
 
@@ -121,12 +121,12 @@ h2 {
 }
 
 .formulario {
-    background-color: #ff0000;
+    background-color: #ffffff;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(206, 0, 0, 0.774);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -138,7 +138,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #ff0080;
+    background-color: #F1EDEF;
 }
 .menu-acessibilidade{
     position: fixed;
