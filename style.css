@@ -4,7 +4,7 @@
 :root {
     --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #088f40;
+    --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #097721;
+    background-color: #ffffff;
 }
 
 
@@ -103,7 +103,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #097023;
+    background-color: #FAF4F4;
 
 }
 
@@ -121,12 +121,12 @@ h2 {
 }
 
 .formulario {
-    background-color: #2f8a05;
+    background-color: #ffffff;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgb(5, 168, 67);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -138,7 +138,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #029b23;
+    background-color: #F1EDEF;
 }
 .menu-acessibilidade{
     position: fixed;
